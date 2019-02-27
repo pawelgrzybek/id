@@ -1,0 +1,23 @@
+{
+  "name": "pawelgrzybek",
+  "version": "0.0.1",
+  "description": "A personal card for Pawel Grzybek (@pawelgrzybek)",
+  "main": "/bin/card.js",
+  "bin": {
+    "bitandbang": "./bin/card.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js"
+  },
+  "author": "Pawel Grzybek <grzybecki@gmail.com> (https://pawelgrzybek.com/)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "chalk": "^2.4.1"
+  }
+}
