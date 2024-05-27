@@ -1,6 +1,6 @@
 {
   "name": "pawelgrzybek",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A personal card for Pawel Grzybek (@pawelgrzybek)",
   "main": "/bin/card.mjs",
   "bin": {
